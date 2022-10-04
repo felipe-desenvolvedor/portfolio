@@ -1,0 +1,38 @@
+.header-container {
+  margin-top: 48px;
+  padding: 60px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.item a {
+  padding: 8px;
+  transition: 0.3s;
+}
+.item a:hover {
+  background-color: var(--p-300);
+  border-radius: 8px;
+  color: var(--p-900);
+}
+
+.curriculum a {
+  padding: 8px 16px;
+  border: 2px solid var(--p-500);
+  border-radius: 8px;
+  color: var(--p-500);
+  transition: 0.3s;
+}
+
+.curriculum a:hover {
+  background-color: var(--p-500);
+  color: var(--p-100);
+  border: 2px solid transparent;
+}
