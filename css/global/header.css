@@ -1,6 +1,7 @@
 .header-container {
   margin-top: 48px;
   padding: 60px;
+  border-radius: 8px 8px 0px 0px;
 }
 .header {
   display: flex;

@@ -1,3 +1,13 @@
-h1 {
-  background-color: hotpink;
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+}
+
+.main-description {
+  padding: 60px;
+  display: grid;
+  align-content: start;
+  gap: 16px;
 }
