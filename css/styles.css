@@ -1,0 +1,12 @@
+/*
+font-family: 'Quicksand', sans-serif;
+
+*/
+@import "./global/global.css";
+@import "./util/colors.css";
+@import "./util/typography.css";
+@import "./util/components.css";
+
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./home/home.css";
