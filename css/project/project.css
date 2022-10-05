@@ -1,0 +1,56 @@
+#projetos {
+  padding: 120px 60px;
+  display: grid;
+}
+.project-container {
+  margin-top: 32px;
+  background-color:rgba(248, 248, 248, 0.231);
+  padding: 16px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.card-project {
+  padding: 32px;
+  min-width: 250px;
+  max-width: 300px;
+  flex: 1;
+  display: flex;
+  gap: 32px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--p-200);
+  position: relative;
+}
+
+.card-project-icons{
+    max-width: 28px;
+}
+.card-project-title {
+  font: bold 1.5rem/1.35 "Quicksand", sans-serif;
+  color: var(--p-700);
+}
+
+.card-project-body {
+  font: 400 1.2rem/1.35 "Quicksand", sans-serif;
+  color: var(--p-900);
+}
+
+.card-project-skils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.card-project-skils li {
+  padding: 8px 16px;
+  background-color: white;
+  border-radius: 8px;
+}
