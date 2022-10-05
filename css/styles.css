@@ -10,3 +10,4 @@ font-family: 'Quicksand', sans-serif;
 @import "./global/header.css";
 @import "./global/footer.css";
 @import "./home/home.css";
+@import "./formation/formation.css";

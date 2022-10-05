@@ -1,0 +1,28 @@
+#formacao {
+  padding: 120px 60px;
+  display: grid;
+}
+.formacao-container {
+  margin-top: 32px;
+  background-color: var(--p-100);
+  padding: 16px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.icons picture a img {
+  max-width: 28px;
+  margin-bottom: 16px;
+  transition: 0.4s;
+  padding: 4px;
+  border-top: 2px solid transparent;
+}
+.icons picture a img:hover {
+  border-top: 2px solid var(--p-500);
+}
