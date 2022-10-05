@@ -1,0 +1,30 @@
+footer {
+  border-radius: 0px 0px 8px 8px;
+}
+.footer {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.social-media-icons li {
+  padding: 8px 24px;
+  max-width: 24px;
+}
+.social-media-icons li:hover {
+  background-color: var(--p-200);
+  border-radius: 4px;
+}
+.copyright {
+  font: 400 0.75rem/1.35 "Quicksand", sans-serif;
+  color: var(--c-500);
+}
