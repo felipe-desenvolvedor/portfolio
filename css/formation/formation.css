@@ -1,6 +1,7 @@
 #formacao {
   padding: 120px 60px;
   display: grid;
+  justify-content: center;
 }
 .formacao-container {
   margin-top: 32px;
@@ -8,6 +9,7 @@
   padding: 16px 32px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border-radius: 8px;
   gap: 16px;
 }
@@ -25,4 +27,26 @@
 }
 .icons picture a img:hover {
   border-top: 2px solid var(--p-500);
+}
+@media (max-width: 1000px) {
+  .formacao-container {
+    background-color: transparent;
+  }
+}
+@media (max-width: 760px) {
+  #formacao h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .formacao-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  #formacao {
+    padding: 32px 64px;
+  }
 }

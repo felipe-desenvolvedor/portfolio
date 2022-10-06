@@ -5,6 +5,7 @@
 }
 .header {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
 }
@@ -36,4 +37,26 @@
   background-color: var(--p-500);
   color: var(--p-100);
   border: 2px solid transparent;
+}
+
+@media (max-width: 550px) {
+  .header-container {
+    margin-top: 0px;
+  }
+  .header {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .header-logo {
+    max-width: 75px;
+  }
+  .curriculum a {
+    border: none;
+    padding: 0px;
+  }
+  .curriculum a:hover {
+    background-color: transparent;
+    color: var(--p-800);
+    border: none;
+  }
 }

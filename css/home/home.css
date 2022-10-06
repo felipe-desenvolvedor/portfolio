@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -10,4 +11,43 @@
   display: grid;
   align-content: start;
   gap: 16px;
+}
+@media (max-width: 760px) {
+  .main {
+    gap: 16px;
+  }
+  .main-description {
+    gap: 8px;
+  }
+  .main-description p {
+    font: 400 0.8rem/1.35 "Quicksand", sans-serif;
+  }
+  .main-photo img {
+    max-width: 250px;
+  }
+  .main-description-person h1 {
+    font: bold 2.5rem/1.35 "Quicksand", sans-serif;
+  }
+  .main-description-person .job {
+    font: bold 1.25rem/1.35 "Quicksand", sans-serif;
+  }
+}
+@media (max-width: 550px) {
+  .main {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .main-photo {
+    justify-self: center;
+    grid-row: 1/2;
+  }
+  .main-photo img {
+    max-width: 150px;
+  }
+  .main-description {
+    text-align: center;
+  }
+  .main-description p {
+    text-align: left;
+  }
 }
