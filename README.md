@@ -25,8 +25,8 @@ O projeto teve as tecnológia escolhida levando em consideração a prática e a
 - CSS Modular;
 - Flex box;
 - Pseudo classes;
-- Manipulação da caixa ( box-model, definição de padding e margin )
-- Variáveis de CSS 
+- Manipulação da caixa ( box-model, definição de padding e margin );
+- Variáveis de CSS ;
 - Responsividade - Alcaçada pelas Media querys e definição das médidas relátivas.
 
 ## SUGESTÃO 
