@@ -17,7 +17,7 @@ O site foi desenvolvido para se adaptar há vários tamanhos de tela, incluse em
 
 
 ## STACK TECH 
-O projeto teve as tecnológia escolhida levando em consideração a prática e a consolidação dos conceitos do HTML e CSS, orá não foi utilizado nem um framework CSS para me desáfiar.
+O projeto teve as tecnológia escolhida levando em consideração a prática e a consolidação dos conceitos do HTML e CSS, ora não foi utilizado nem um framework CSS, com a finalidade de me desáfiar.
 
 
 ### TÓPICOS PRÁTICADOS NO PROJETO
